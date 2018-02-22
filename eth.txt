@@ -1,0 +1,2 @@
+ath0      Link encap:Ethernet  HWaddr 78:8A:20:92:07:FC  
+eth0      Link encap:Ethernet  HWaddr 78:8A:20:93:07:FC  
