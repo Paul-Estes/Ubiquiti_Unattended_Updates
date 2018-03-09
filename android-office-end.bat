@@ -10,7 +10,7 @@ GoTo :End
 )
 :End
 ::Uploads Configuration to UBNT Device
-PSCP.EXE -scp -pw ubnt VAN-OE_Android_Config.cfg ubnt@192.168.1.20:/tmp/VAN-OE_Android_Config.cfg
+PSCP.EXE -scp -pw ubnt 42AndroidOE.cfg ubnt@192.168.1.20:/tmp/42AndroidOE.cfg
 ::Sending Configuration commands to UBNT Device
 del eth.txt
 plink -ssh -pw ubnt ubnt@192.168.1.20 "/sbin/ifconfig ath0 | grep HWaddr" > eth.txt
